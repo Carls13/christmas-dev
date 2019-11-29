@@ -1,0 +1,59 @@
+.footer-mobile{
+	display: none;
+}
+
+.top-mobile-image{
+	display: none;
+}
+
+footer{
+	width: 100vw;
+	background-color: #AA0303;
+	color: white;
+}
+
+footer .row div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form { 
+	display: flex;
+	flex-direction: column;
+ }
+
+ form .email-input {
+ 	width: 50%;
+ 	border-radius: 1em;
+ }
+
+.footer-logo {
+  width: 50%;
+}
+
+@media screen and (max-width: 580px){
+	form .email-input {
+	 	width: 75%;
+	}
+
+	.top-desktop-image{
+		display: none;
+	
+	}
+	.top-mobile-image{
+		display: block;
+		width: 100%;
+	}
+
+	.footer-desktop{
+		display: none;
+	}
+
+	.footer-mobile{
+		margin-top: 2em;
+		display: block;
+	}
+	
+}
