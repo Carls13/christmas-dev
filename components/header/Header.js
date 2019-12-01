@@ -33,7 +33,7 @@ class Header extends React.Component{
 			<div className="row">
 				<div className="col-10 col-lg-3">
 					<Link href="/">
-						<img src="./../../static/logo.png" alt="Header logo" className="header-logo pointer"/>
+						<img src="./../../static/header-logo.png" alt="Header logo" className="header-logo pointer"/>
 					</Link>
 				</div>
 				<div className="col-2 menu-icon father-vertical only-mobile" onClick={this.showHideMenu}>

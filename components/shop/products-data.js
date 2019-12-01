@@ -9,7 +9,7 @@ export const SHOP = {
       },
       {
          id: 2,
-         title: 'Christmas Tre',
+         title: 'Christmas Tree',
          description: 'A beautiful Christmas tree for your home',
          price: '20.00',
          image: './../../static/favicon.png'
@@ -30,8 +30,8 @@ export const SHOP = {
       },
       {
          id: 5,
-         title: 'Christmas Fireworks',
-         description: 'For the kids of your house. Make this Christmas explosive!',
+         title: 'Christmas Hat',
+         description: 'Make yourself the image of the Christmas with this beautiful hat!',
          price: '20.00',
          image: './../../static/favicon.png'
       },
